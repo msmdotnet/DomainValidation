@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainValidation", "src\DomainValidation\DomainValidation.csproj", "{5C66E47A-B4AB-456B-8546-F7ABF8549F22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainValidation.Tests", "tests\DomainValidation.Tests\DomainValidation.Tests.csproj", "{9845B2DA-EF57-4B86-8576-F8AEBAD9A947}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C66E47A-B4AB-456B-8546-F7ABF8549F22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C66E47A-B4AB-456B-8546-F7ABF8549F22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C66E47A-B4AB-456B-8546-F7ABF8549F22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C66E47A-B4AB-456B-8546-F7ABF8549F22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9845B2DA-EF57-4B86-8576-F8AEBAD9A947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9845B2DA-EF57-4B86-8576-F8AEBAD9A947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9845B2DA-EF57-4B86-8576-F8AEBAD9A947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9845B2DA-EF57-4B86-8576-F8AEBAD9A947}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC3FC13D-158E-4543-80CD-2B7304642CBA}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,12 @@
+global using DomainValidation.ValueObjects;
+global using DomainValidation.Interfaces;
+global using System.Linq.Expressions;
+global using DomainValidation.Extensions;
+global using DomainValidation.Core;
+global using DomainValidation.Helpers;
+global using DomainValidation.Resources;
+global using System.Text.RegularExpressions;
+global using System.Collections;
+global using Microsoft.Extensions.DependencyInjection;
+global using Microsoft.Extensions.DependencyInjection.Extensions;
+global using DomainValidation.Exceptions;
