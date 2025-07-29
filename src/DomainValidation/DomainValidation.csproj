@@ -25,4 +25,47 @@
     </EmbeddedResource>
   </ItemGroup>
 
+  <PropertyGroup>
+    <PackageId>DomainValidation</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Miguel Muñoz Serafín</Authors>
+    <Company>MSMDotNet</Company>
+    <Description>Una biblioteca .NET para validación de reglas de negocio en aplicaciones que implementan Clean Architecture, desarrollada durante el entrenamiento "Introducción a Clean Architecture en aplicaciones .NET".</Description>
+    <Summary>Biblioteca para validación de reglas de negocio siguiendo principios de Clean Architecture</Summary>
+
+    <PackageProjectUrl>https://github.com/msmdotnet/DomainValidation</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/msmdotnet/DomainValidation</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryBranch>main</RepositoryBranch>
+
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+
+    <PackageReleaseNotes>
+      v1.0.0
+      - Versión inicial
+      - Soporte para validación de reglas de negocio
+      - Implementación de principios Clean Architecture
+      - Documentación completa incluida
+    </PackageReleaseNotes>
+
+    <PackageTags>clean-architecture;business-rules;validation;dotnet;csharp;architecture</PackageTags>
+
+    <Title>Clean Architecture: DomainValidation</Title>
+
+    <Copyright>Copyright © Miguel Muñoz Serafín 2025</Copyright>
+
+    <IncludeSymbols>True</IncludeSymbols>
+
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+   
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+    <None Include="..\..\assets\icon.png" Pack="true" PackagePath="\" Condition="Exists('..\..\assets\icon.png')" />
+  </ItemGroup>
+
+
 </Project>
