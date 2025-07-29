@@ -26,7 +26,7 @@
   </ItemGroup>
 
   <PropertyGroup>
-    <PackageId>DomainValidation</PackageId>
+    <PackageId>MSMDotNet.DomainValidation</PackageId>
     <Version>1.0.0</Version>
     <Authors>Miguel Muñoz Serafín</Authors>
     <Company>MSMDotNet</Company>
