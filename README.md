@@ -1,6 +1,7 @@
 # Clean Architecture: DomainValidation
 
 Una biblioteca .NET para validación de reglas de negocio en aplicaciones que implementan Clean Architecture, desarrollada durante el entrenamiento "Introducción a Clean Architecture en aplicaciones .NET".
+https://ticapacitacion.com/curso/introca/
 
 ## Descripción
 
